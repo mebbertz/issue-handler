@@ -9,7 +9,7 @@ def create_issues(source_directory, target_repository):
     for filename in os.listdir(source_directory):
         # compose file path of JSON requirement
         f = os.path.join(source_directory, filename)
-        print(type(f))
+
         # check if it is a file
         if os.path.isfile(f):
             create_issue(target_repository, f)
@@ -36,7 +36,10 @@ def create_issue(target_repository, json_path):
 
 
 def close_issues(target_repository):
+    # Get all open issues
     open_issues = target_repository.get_issues(state='open')
+
+    # Close all open issues
     for issue in open_issues:
         issue.edit(state='closed')
 
