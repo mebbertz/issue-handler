@@ -1,7 +1,0 @@
-{
-  "title": "This is a new issue",
-  "body": "This is the issue body.",
-  "labels": ["bug","enhancement"],
-  "assignees": ["mebbertz"],
-  "milestone": 1
-}

@@ -1,7 +1,12 @@
 {
-  "title": "This is a new issue",
-  "body": "This is the issue body.",
-  "labels": ["bug","enhancement"],
-  "assignees": ["mebbertz"],
+  "title": "As a <user role> (WHO), I want to <functionality> (WHAT), so that <benefit> (WHY)",
+  "body": "Conversation:\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.\n\nConversation:\nLorem, ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+  "labels": [
+    "bug",
+    "enhancement"
+  ],
+  "assignees": [
+    "mebbertz"
+  ],
   "milestone": 1
 }
