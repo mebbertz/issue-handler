@@ -15,9 +15,9 @@ def create_issues(source_directory, target_repository):
             create_issue(target_repository, f)
 
 
-def create_issue(target_repository, json_path):
+def create_issue(target_repository, json_file):
     # Open JSON file
-    f = open(json_path)
+    f = open(json_file)
 
     # Generate dictionary from JSON
     requirement = json.load(f)
