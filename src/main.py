@@ -5,12 +5,12 @@ from github import Github
 
 
 def create_issues(source_directory, target_repository):
-    # iterate over JSON requirements in source directory
+    # Iterate over JSON requirements in source directory
     for filename in os.listdir(source_directory):
-        # compose file path of JSON requirement
+        # Compose file path of JSON requirement
         f = os.path.join(source_directory, filename)
 
-        # check if it is a file
+        # Check if it is a file
         if os.path.isfile(f):
             create_issue(target_repository, f)
 
@@ -49,10 +49,10 @@ if __name__ == '__main__':
     load_dotenv()
 
     # Create GitHub instance based on personal access token
-    g = Github(os.environ.get("PERSONAL_ACCESS_TOKEN"))
+    g = Github(os.environ.get('PERSONAL_ACCESS_TOKEN'))
 
     # Get GitHub repository based on target repository name
-    repo = g.get_user().get_repo(os.environ.get("TARGET_REPOSITORY_NAME"))
+    repo = g.get_user().get_repo(os.environ.get('TARGET_REPOSITORY_NAME'))
 
     # Create issue for each JSON requirement
-    create_issues(os.environ.get("SOURCE_DIRECTORY"), repo)
+    create_issues(os.environ.get('SOURCE_DIRECTORY'), repo)
