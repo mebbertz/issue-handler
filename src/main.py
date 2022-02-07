@@ -13,6 +13,7 @@ def create_issues(source_directory, target_repository):
         # Check if it is a file
         if os.path.isfile(f):
             create_issue(target_repository, f)
+            print(f)
 
 
 def create_issue(target_repository, json_file):
