@@ -1,11 +1,12 @@
 {
-  "title": "As a <user role> (WHO), I want to <functionality> (WHAT), so that <benefit> (WHY)",
-  "body": "## Conversation:\n- Lorem ipsum dolor sit amet\n- consetetur sadipscing elitr\n- sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua.\n- At vero eos et accusam et justo duo dolores et ea rebum.\n- Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.\n\n## Confirmation:\nLorem, ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+  "title": "4711: As an international user of the weather application, I want to change the temperature indicators to Fahrenheit, so that I am able to interpret the values more easily.",
+  "body": "## Conversation:\n- Convert measured and perceived temperature from Celsius to Fahrenheit\n(Conversion formulas -> °F = °C * 1,8 + 32; °C = (°F - 32) * 5/9)\n- Integrate toggle switch for Celsius to Fahrenheit in top right corner of the temperature indicator screen\n- Replaces values of temperature indicators for measured and perceived temperature with Fahrenheit and vice versa when toggle switch is pressed\n\n## Confirmation:\n- Verify correct conversion from Celsius to Fahrenheit and vice versa\n- Check correct positioning of toggle switch in all common web browsers on both desktop and mobile devices\n- Test correct temperature indication for measured and perceived temperature with multiple toggle switches",
   "labels": [
-    "enhancement"
+    "Priority: high",
+    "Estimate: 4"
   ],
   "assignees": [
     "mebbertz"
   ],
-  "milestone": 1
+  "milestone": 13
 }
