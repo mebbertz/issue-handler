@@ -1,0 +1,13 @@
+{
+  "title": "4713: As a marketing specialist for the weather application, I want to ensure that the appearance of the weather application is in line with the corporate identity, so that all provided software solutions present a coherent impression.",
+  "body": "## Conversation:\n- Add the company logo in front of the headlines of each screen\n- Change the background color, font color of all headlines and button color from #002F5F to #82DB7D\n- Change the color of the icon palette from #4c6d8f to #3DC08D\n\n## Confirmation:\n- Verify the appearance of the company logo in front of the headlines of each screen\n- Check the color change of the background color, font color of all headlines and button color\n- Check the color change of the icon palette",
+  "labels": [
+    "Priority: low",
+    "Estimate: 2"
+  ],
+  "assignees": [
+    "phwo9788",
+    "mebbertz"
+  ],
+  "milestone": 13
+}
