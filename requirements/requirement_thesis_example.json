@@ -1,0 +1,10 @@
+{
+  "title": "As a user, I want to add locations as favorites and toggle between them quickly accessible.",
+  "body": "## Role:\nUser\n## Functionality:\n- Add locations as favorites\n- Toggle between them\n## Benefit:\nQuick access to weather information of several locations\n## Conversation:\nN/A\n## Confirmation:\nN/A\n## Origin/Source:\nhttp://www.link-to.origin.com/id/4711",
+  "labels": [
+    "Not classified",
+    "Medium"
+  ],
+  "assignees": [],
+  "milestone": 13
+}
