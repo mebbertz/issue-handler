@@ -1,12 +1,10 @@
 {
-  "title": "4711: As an international user of the weather application, I want to change the temperature indicators to Fahrenheit, so that I am able to interpret the values more easily.",
+  "title": "As an international user of the weather application, I want to change the temperature indicators to Fahrenheit, so that I am able to interpret the values more easily.",
   "body": "## Conversation:\n- Convert measured and perceived temperature from Celsius to Fahrenheit\n(Conversion formulas -> °F = °C * 1,8 + 32; °C = (°F - 32) * 5/9)\n- Integrate toggle switch for Celsius to Fahrenheit in top right corner of the temperature indicator screen\n- Replaces values of temperature indicators for measured and perceived temperature with Fahrenheit and vice versa when toggle switch is pressed\n\n## Confirmation:\n- Verify correct conversion from Celsius to Fahrenheit and vice versa\n- Check correct positioning of toggle switch in all common web browsers on both desktop and mobile devices\n- Test correct temperature indication for measured and perceived temperature with multiple toggle switches",
   "labels": [
-    "Priority: high",
-    "Estimate: 4"
+    "Not classified",
+    "Medium"
   ],
-  "assignees": [
-    "mebbertz"
-  ],
+  "assignees": [],
   "milestone": 13
 }

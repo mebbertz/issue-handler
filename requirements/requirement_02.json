@@ -1,12 +1,10 @@
 {
-  "title": "4712: As a mobile user of the weather application, I want to have offline access to already retrieved weather data, so that I am able to check the weather forecast despite an unstable network connection.",
+  "title": "As a mobile user of the weather application, I want to have offline access to already retrieved weather data, so that I am able to check the weather forecast despite an unstable network connection.",
   "body": "## Conversation:\n- Determine device type when launching the weather application\n- Store retrieved weather data for mobile device types using Progressive Web App (PWA) features\n- Display offline data if no stable network connection is available\n\n## Confirmation:\n- Tests recognition of the correct device types\n- Verify storage of offline data when accessing the weather application with mobile devices\n- Check measured and perceived weather indicators with cached values without network connection\n",
   "labels": [
-    "Priority: medium",
-    "Estimate: 6"
+    "Not classified",
+    "Low"
   ],
-  "assignees": [
-    "phwo9788"
-  ],
+  "assignees": [],
   "milestone": 13
 }
